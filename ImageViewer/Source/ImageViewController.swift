@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import YYWebImage
 
-extension UIImageView: ItemView {}
+extension YYAnimatedImageView: ItemView {}
 
-class ImageViewController: ItemBaseController<UIImageView> {
+class ImageViewController: ItemBaseController<YYAnimatedImageView> {
 }

@@ -7,10 +7,11 @@
 //
 
 import UIKit
+import YYWebImage
 
 class ThumbnailCell: UICollectionViewCell {
 
-    let imageView = UIImageView()
+    let imageView = YYAnimatedImageView()
 
     override init(frame: CGRect) {
         super.init(frame: frame)
